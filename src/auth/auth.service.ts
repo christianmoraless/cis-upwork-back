@@ -4,9 +4,9 @@ import {
   InternalServerErrorException,
   UnauthorizedException,
 } from '@nestjs/common';
-import { Repository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
 import { JwtService } from '@nestjs/jwt';
+import { Repository } from 'typeorm';
 import * as bcrypt from 'bcrypt';
 
 import { User } from './entities/user.entity';
